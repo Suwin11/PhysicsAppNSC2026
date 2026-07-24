@@ -10,7 +10,7 @@ Is 'fonts/Kanit-Regular.ttf' found?: True
   File: Kanit-Regular.ttf | Size: 169744 bytes
   File: _README.txt | Size: 885 bytes
 
-Files in Root: ['BUILD_NOTES.md', 'debug_log.txt', 'fonts', 'game.exe', 'iconpho', 'README.txt', 'requirements.txt', 'savegame.json', 'sound', 'theme_kanit.json', 'theme_noto.json', 'tools', 'ui', 'UI_SCALE_GUIDE.md', 'worlds', '_internal']
+Files in Root: ['.git', 'BUILD_NOTES.md', 'debug_log.txt', 'fonts', 'game.exe', 'iconpho', 'README.txt', 'requirements.txt', 'savegame.json', 'sound', 'theme_kanit.json', 'theme_noto.json', 'tools', 'ui', 'UI_SCALE_GUIDE.md', 'worlds', '_internal']
 
 --- Pygame Font Loading Test ---
   TEST 1: Pygame loaded 'fonts/Kanit-Regular.ttf' successfully!
