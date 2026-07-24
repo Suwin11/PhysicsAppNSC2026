@@ -1,0 +1,167 @@
+{
+  "defaults": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Bold.ttf"
+    }
+  },
+  "label": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Bold.ttf"
+    }
+  },
+  "button": {
+    "colours": {
+      "normal_bg": "#3a4152",
+      "hovered_bg": "#525d78",
+      "selected_bg": "#3f74bd",
+      "active_bg": "#3f74bd",
+      "disabled_bg": "#2b2f3a",
+      "normal_text": "#eef1f8",
+      "hovered_text": "#ffffff",
+      "selected_text": "#ffffff",
+      "active_text": "#ffffff",
+      "disabled_text": "#6e727c",
+      "normal_border": "#616c88",
+      "hovered_border": "#95a2c4",
+      "selected_border": "#a9c2ee",
+      "disabled_border": "#3a3f4a"
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "5",
+      "border_width": "2",
+      "shadow_width": "1"
+    },
+    "font": {
+      "name": "kanit",
+      "size": "16",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Bold.ttf"
+    }
+  },
+  "text_box": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Bold.ttf"
+    }
+  },
+  "text_entry_line": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf"
+    }
+  },
+  "window": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Bold.ttf"
+    }
+  },
+  "#ai_chat_window": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Bold.ttf"
+    }
+  },
+  "horizontal_slider": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf"
+    }
+  },
+  "drop_down_menu": {
+    "font": {
+      "name": "kanit",
+      "size": "14",
+      "regular_path": "fonts/Kanit-Regular.ttf"
+    }
+  },
+  "@toolgroup": {
+    "colours": {
+      "normal_text": "#7a8aa0"
+    },
+    "font": {
+      "name": "kanit",
+      "size": "11",
+      "bold": "1",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Bold.ttf"
+    },
+    "misc": {
+      "text_horiz_alignment": "center"
+    }
+  },
+  "@btn_go": {
+    "colours": {
+      "normal_bg": "#2e7d4f",
+      "hovered_bg": "#379a5f",
+      "selected_bg": "#3fae6b",
+      "active_bg": "#3fae6b",
+      "normal_text": "#ffffff",
+      "hovered_text": "#ffffff",
+      "selected_text": "#ffffff",
+      "normal_border": "#52c489",
+      "hovered_border": "#7ee3ab",
+      "selected_border": "#9defc2"
+    }
+  },
+  "@btn_warn": {
+    "colours": {
+      "normal_bg": "#b07d2c",
+      "hovered_bg": "#cd9435",
+      "selected_bg": "#e0a63e",
+      "active_bg": "#e0a63e",
+      "normal_text": "#ffffff",
+      "hovered_text": "#ffffff",
+      "selected_text": "#ffffff",
+      "normal_border": "#e6b45a",
+      "hovered_border": "#f6ce80",
+      "selected_border": "#ffdf9a"
+    }
+  },
+  "@btn_danger": {
+    "colours": {
+      "normal_bg": "#98393a",
+      "hovered_bg": "#b84646",
+      "selected_bg": "#cc5151",
+      "active_bg": "#cc5151",
+      "normal_text": "#ffffff",
+      "hovered_text": "#ffffff",
+      "selected_text": "#ffffff",
+      "normal_border": "#d47070",
+      "hovered_border": "#ea9494",
+      "selected_border": "#ffb0b0"
+    }
+  },
+  "@mathlabel": {
+    "font": {
+      "name": "mathmono",
+      "size": "14"
+    }
+  },
+  "@worldname": {
+    "font": {
+      "name": "kanit",
+      "size": "13"
+    },
+    "colours": {
+      "normal_text": "#9fb0cc",
+      "dark_bg": "#00000000",
+      "normal_bg": "#00000000"
+    }
+  }
+}

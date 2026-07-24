@@ -1,0 +1,125 @@
+{
+    "camera": {
+        "x": 150,
+        "y": 0,
+        "zoom": 0.4
+    },
+    "world_size": 3000,
+    "mission_desc": "Mission 2: Find the right speed and angle to clear the wall!",
+    "locked_params": {
+        "mass": true,
+        "size": true,
+        "velocity": false,
+        "delete": true
+    },
+    "blocks": [
+        {
+            "name": "Player",
+            "x": -300,
+            "y": 0,
+            "mass": 5,
+            "color": [
+                100,
+                255,
+                100
+            ],
+            "width": 40,
+            "height": 40,
+            "state": "DYNAMIC",
+            "vx": 0,
+            "vy": 0,
+            "omega": 0,
+            "applied_ax": 0,
+            "applied_ay": 0,
+            "force_duration": 0,
+            "applied_torque": 0.0,
+            "torque_duration": 0.0,
+            "shape_type": "BOX",
+            "radius": 20,
+            "scale_mult": 1.0,
+            "tags": "player",
+            "locked_params": {
+                "edit_state": false,
+                "size": false,
+                "mass": false,
+                "velocity": false,
+                "force": false,
+                "delete": false,
+                "position": false,
+                "angle": false,
+                "friction": false,
+                "drag": false,
+                "torque": false,
+                "tags": false,
+                "glue": false
+            },
+            "glued_faces": {
+                "top": false,
+                "bottom": false,
+                "left": false,
+                "right": false
+            },
+            "waypoints": []
+        },
+        {
+            "name": "Wall",
+            "x": 200,
+            "y": 0,
+            "mass": 9999,
+            "color": [
+                150,
+                150,
+                150
+            ],
+            "width": 50,
+            "height": 300,
+            "state": "FIXED WALL",
+            "vx": 0,
+            "vy": 0,
+            "omega": 0,
+            "applied_ax": 0,
+            "applied_ay": 0,
+            "force_duration": 0,
+            "applied_torque": 0.0,
+            "torque_duration": 0.0,
+            "shape_type": "BOX",
+            "radius": 20,
+            "scale_mult": 1.0,
+            "tags": "",
+            "locked_params": {
+                "edit_state": false,
+                "size": false,
+                "mass": false,
+                "velocity": false,
+                "force": false,
+                "delete": false,
+                "position": false,
+                "angle": false,
+                "friction": false,
+                "drag": false,
+                "torque": false,
+                "tags": false,
+                "glue": false
+            },
+            "glued_faces": {
+                "top": false,
+                "bottom": false,
+                "left": false,
+                "right": false
+            },
+            "waypoints": []
+        }
+    ],
+    "linkages": [],
+    "targets": [
+        {
+            "name": "Target Zone",
+            "x": 600,
+            "y": 0,
+            "width": 100,
+            "height": 100,
+            "req_tag": "player",
+            "req_count": 1
+        }
+    ]
+}

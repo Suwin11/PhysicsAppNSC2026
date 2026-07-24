@@ -1,0 +1,1 @@
+{"gravity": true, "springs": true, "gemini_api_key": "AQ.Ab8RN6K4MLcd2Es6Lp9I7vQDZ4LCMhNVMKtFUwtlh-gPSoe6mQ", "gemini_model": "gemini-2.5-flash", "tc_memory_mb": 50, "tc_sample_rate": 2, "tc_ring_buffer": true, "ui_theme": "dark", "bg_color": null, "sound_on": true, "sound_volume": 1.0, "ui_scale": 1.0, "nav_joystick": false}

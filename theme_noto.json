@@ -1,0 +1,81 @@
+{
+  "defaults": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14",
+      "bold": "1",
+      "italic": "1"
+    }
+  },
+  "label": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14",
+      "bold": "1",
+      "italic": "1"
+    }
+  },
+  "button": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14",
+      "bold": "1"
+    }
+  },
+  "text_box": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14",
+      "bold": "1",
+      "italic": "1"
+    }
+  },
+  "text_entry_line": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14"
+    }
+  },
+  "window": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14",
+      "bold": "1"
+    }
+  },
+  "#ai_chat_window": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14",
+      "bold": "1",
+      "italic": "1"
+    }
+  },
+  "horizontal_slider": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14"
+    }
+  },
+  "drop_down_menu": {
+    "font": {
+      "name": "noto_sans",
+      "size": "14"
+    }
+  },
+  "@toolgroup": {
+    "colours": {
+      "normal_text": "#7a8aa0"
+    },
+    "font": {
+      "name": "noto_sans",
+      "size": "11",
+      "bold": "1",
+      "regular_path": "fonts/Kanit-Regular.ttf",
+      "bold_path": "fonts/Kanit-Regular.ttf"
+    },
+    "misc": {
+      "text_horiz_alignment": "center"
+    }
+  }
+}

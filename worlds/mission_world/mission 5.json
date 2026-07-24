@@ -1,0 +1,148 @@
+{
+    "camera": {
+        "x": 159.65256965256955,
+        "y": -12.289835164835255,
+        "zoom": 3.8000000000000025
+    },
+    "world_size": 3000,
+    "mission_desc": "Custom",
+    "locked_params": {
+        "gravity": true,
+        "rotation": true,
+        "bounce": true,
+        "tool_locks": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+        ]
+    },
+    "blocks": [
+        {
+            "name": "Block 1",
+            "x": 0,
+            "y": 0,
+            "mass": 5.0,
+            "color": [
+                100,
+                100,
+                255
+            ],
+            "width": 10,
+            "height": 10,
+            "state": "DYNAMIC",
+            "vx": 250.0,
+            "vy": -0.0,
+            "omega": 0.0,
+            "applied_ax": 0.0,
+            "applied_ay": -0.0,
+            "force_duration": 0.0,
+            "applied_torque": 0.0,
+            "torque_duration": 0.0,
+            "shape_type": "BOX",
+            "radius": 20,
+            "scale_mult": 1.0,
+            "tags": "",
+            "locked_params": {
+                "edit_state": true,
+                "delete": true,
+                "position": true,
+                "angle": true,
+                "size_w": true,
+                "size_h": true,
+                "mass": true,
+                "vel_mag": true,
+                "vel_ang": false,
+                "omega": true,
+                "force_mag": true,
+                "force_ang": true,
+                "force_dur": true,
+                "torque": true,
+                "torque_dur": true,
+                "friction": true,
+                "drag": true,
+                "tags": true,
+                "glue": true
+            },
+            "glued_faces": {
+                "top": false,
+                "bottom": false,
+                "left": false,
+                "right": false
+            },
+            "waypoints": []
+        },
+        {
+            "name": "Block 2",
+            "x": 100,
+            "y": 0,
+            "mass": 5.0,
+            "color": [
+                100,
+                100,
+                255
+            ],
+            "width": 10,
+            "height": 100.0,
+            "state": "FIXED WALL",
+            "vx": 0,
+            "vy": 0,
+            "omega": 0,
+            "applied_ax": 0,
+            "applied_ay": 0,
+            "force_duration": 0,
+            "applied_torque": 0.0,
+            "torque_duration": 0.0,
+            "shape_type": "BOX",
+            "radius": 20,
+            "scale_mult": 1.0,
+            "tags": "",
+            "locked_params": {
+                "edit_state": true,
+                "delete": true,
+                "position": true,
+                "angle": true,
+                "size_w": true,
+                "size_h": true,
+                "mass": true,
+                "vel_mag": true,
+                "vel_ang": true,
+                "omega": true,
+                "force_mag": true,
+                "force_ang": true,
+                "force_dur": true,
+                "torque": true,
+                "torque_dur": true,
+                "friction": true,
+                "drag": true,
+                "tags": true,
+                "glue": true
+            },
+            "glued_faces": {
+                "top": false,
+                "bottom": false,
+                "left": false,
+                "right": false
+            },
+            "waypoints": []
+        }
+    ],
+    "linkages": [],
+    "targets": [
+        {
+            "name": "Target 1",
+            "x": 200,
+            "y": 0,
+            "width": 10.0,
+            "height": 10.0,
+            "req_tag": "",
+            "req_count": 1
+        }
+    ]
+}

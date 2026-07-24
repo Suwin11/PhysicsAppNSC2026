@@ -1,0 +1,20 @@
+=== NEWTON PHYSICS SIMULATOR ADVANCED DIAGNOSTIC LOG ===
+Working Directory: C:\Users\suwin\Downloads\game\game
+Executable Location: C:\Users\suwin\Downloads\game\game\game.exe
+Is 'theme_kanit.json' found?: True
+Is 'fonts' folder found?: True
+Is 'fonts/Kanit-Regular.ttf' found?: True
+
+--- Font Files Verification ---
+  File: Kanit-Bold.ttf | Size: 172876 bytes
+  File: Kanit-Regular.ttf | Size: 169744 bytes
+  File: _README.txt | Size: 885 bytes
+
+Files in Root: ['BUILD_NOTES.md', 'debug_log.txt', 'fonts', 'game.exe', 'iconpho', 'README.txt', 'requirements.txt', 'savegame.json', 'sound', 'theme_kanit.json', 'theme_noto.json', 'tools', 'ui', 'UI_SCALE_GUIDE.md', 'worlds', '_internal']
+
+--- Pygame Font Loading Test ---
+  TEST 1: Pygame loaded 'fonts/Kanit-Regular.ttf' successfully!
+  TEST 2: Pygame loaded 'fonts/Kanit-Bold.ttf' successfully!
+
+--- JSON Theme Verification ---
+  TEST 3: theme_kanit.json parsed successfully as valid JSON!

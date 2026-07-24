@@ -1,0 +1,77 @@
+{
+    "camera": {
+        "x": 500,
+        "y": 0,
+        "zoom": 0.5
+    },
+    "world_size": 3000,
+    "mission_desc": "Mission 1: Adjust the cannon's angle to hit the target!",
+    "locked_params": {
+        "mass": true,
+        "size": true,
+        "velocity": false,
+        "delete": true
+    },
+    "blocks": [
+        {
+            "name": "Cannonball",
+            "x": 0,
+            "y": 0,
+            "mass": 10,
+            "color": [
+                255,
+                100,
+                100
+            ],
+            "width": 40,
+            "height": 40,
+            "state": "DYNAMIC",
+            "vx": 150,
+            "vy": 0,
+            "omega": 0,
+            "applied_ax": 0,
+            "applied_ay": 0,
+            "force_duration": 0,
+            "applied_torque": 0.0,
+            "torque_duration": 0.0,
+            "shape_type": "BOX",
+            "radius": 20,
+            "scale_mult": 1.0,
+            "tags": "ball",
+            "locked_params": {
+                "edit_state": false,
+                "size": false,
+                "mass": false,
+                "velocity": false,
+                "force": false,
+                "delete": false,
+                "position": false,
+                "angle": false,
+                "friction": false,
+                "drag": false,
+                "torque": false,
+                "tags": false,
+                "glue": false
+            },
+            "glued_faces": {
+                "top": false,
+                "bottom": false,
+                "left": false,
+                "right": false
+            },
+            "waypoints": []
+        }
+    ],
+    "linkages": [],
+    "targets": [
+        {
+            "name": "Target Zone",
+            "x": 1000,
+            "y": 0,
+            "width": 100,
+            "height": 100,
+            "req_tag": "ball",
+            "req_count": 1
+        }
+    ]
+}
